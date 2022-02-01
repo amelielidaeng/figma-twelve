@@ -1,0 +1,120 @@
+h3 {
+    display: inline;
+}
+
+section {
+    display: inline-block;
+}
+
+/*Couldn't find this font on google fonts
+The E is a bit different from the Figma pic.*/
+.logo {
+    max-width: 495px;
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 37px;
+    font-family: "Circular Std", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    color: #0A1B32;
+}
+
+.logo-dot {
+    color: #FC569A;
+    margin-right: 98px;
+}
+
+.top-button {
+    margin-left:40px;
+    margin-top: 30px;
+    width: 120px;
+    height: 60px;
+    background-color: #FC569A;
+    border-radius: 6px; 
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: white;
+}
+
+/*There must be a much better solution to this
+typ of header with links but it looks kinda right*/
+.menu-links {
+    margin-right: 40px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.sign-in {
+    margin-left: 752px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+/*I don't get why my font is different than the figma pic?
+Had to add width to make it fit on 2 rows.*/
+.main-title {
+    max-width: 555px;
+    width: 100%;
+    font-family: "Ramaraja", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-left: 200px;
+    margin-top: 209px;
+}
+
+.main-info {
+    max-width: 582px;
+    width: 100%;
+    height: 96px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.main-button {
+    width: 152px;
+    height: 64px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: #FC569A;
+    border: none;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: white;
+}
